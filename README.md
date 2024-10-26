@@ -58,3 +58,6 @@ dvc stage add -n train \
 dvc stage add -n evaluate \
     -d src/evaluate.py -d models/model.pkl -d data/raw/data.csv \
     python src/evaluate.py
+
+## Data pipline
+![Machine Learning Data Pipline](Data-Pipline.png)
